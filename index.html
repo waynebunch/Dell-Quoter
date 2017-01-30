@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Quote Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box leftBox">
+            <div class="pasteBox leftBoxToolContainer" id="pasteBox" contenteditable="true"><span>Paste Quote here</span></div>
+            <div class="leftBoxToolContainer dell">
+                <input class="radioBtnClass" id="dell" type="radio" name="radioInput" value="dellEq">
+                <label for="dell">Dell Quote</label>
+            </div>
+            <div class="leftBoxToolContainer ingram">
+                <input class="radioBtnClass" id="ingram" type="radio" name="radioInput" value="ingram">
+                <label for="ingram">Ingram</label>
+            </div>
+            <div class="leftBoxToolContainer synnex">
+                <input class="radioBtnClass" id="synnex" type="radio" name="radioInput" value="synnex">
+                <label for="synnex">Synnex</label>
+            </div>
+            <div class="leftBoxToolContainer techdata">
+                <input class="radioBtnClass" id="techdata" type="radio" name="radioInput" value="techdata">
+                <label for="techdata">TechData</label>
+            </div>
+            <div class="leftBoxToolContainer markup">
+                <input class="radioBtnClass" id="markup" type="text" name="radioInput" value="4">
+                <label for="markup">Markup Percent (e.g. 4.5 or 2.75)</label>
+            </div>
+            <div class="leftBoxToolContainer">
+                <button class="quoteBtn" id="submitBtn" type="button" name="submit">Submit That Shit</button>
+            </div>
+            <div class="leftBoxToolContainer">
+                <button class="quoteBtn" type="button" name="submit">Testing Button</button>
+            </div>
+        </div>
+        <div class="box rightBox">
+            <div id="itemSpecs"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

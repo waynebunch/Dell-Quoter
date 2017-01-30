@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.pasteBox {
+  display: flex;
+  overflow: hidden;
+  height: 20vh;
+  border-bottom: 5px solid black;
+  /*flex: 1;*/
+}
+
+.groupDiv {
+  border: 1px solid;
+}
+
+.groupPricingDiv {
+  margin-top: 5px;
+  border: 1px solid;
+  display: flex;
+}
+
+.groupPricingItems {
+  flex: 1;
+  border: 1px solid;
+}
+
+span {
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+}
+
+.box {
+  border: 5px solid black;
+}
+
+.leftBox {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightBox {
+  width: 80vw;
+  display: flex;
+  /*flex-direction: column;*/
+}
+
+.leftBoxToolContainer {
+  width: auto;
+}
+
+.dell {
+}
+
+.quoteBtn {
+  width: 100%
+}
+
+#itemSpecs {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemText {
+  border: 1px solid;
+  font-size: 10px;
+}
+
+.markup {
+  border: 1px solid;
+  text-align: center;
+}
+
+#markup {
+  max-width: 50px;
+}
